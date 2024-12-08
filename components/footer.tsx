@@ -6,11 +6,10 @@ export const Footer = () => {
   return (
     <div className="p-2">
       <div className="flex flex-row items-center justify-center text-white">
-        <div className="">
+        <div className="flex flex-col items-center">
           <Social />
-          <p>
-            A boundless blockchain adventure ignited by a spark of innovation
-            —ZEPH!
+          <p className="font-bold text-white p-2 rounded-xl text-base bg-gradient-to-r from-blue-500 to-cyan-500">
+            ©Copyright 2024 Zephorium
           </p>
         </div>
       </div>

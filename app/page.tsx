@@ -12,7 +12,7 @@ export default function Home() {
   const [SidebarShow, setSidebarShow] = useState(false);
 
   return (
-    <div className="bg-black max-xs:text-xs font-[family-name:var(--font-geist-sans)]">
+    <div className="bg-black max-xs:text-xs font-[family-name:var(--font-orbitron)]">
       <main className="min-h-screen grid grid-rows-[1fr_auto]">
         <Header setSidebar={setSidebarShow} />
         <div className="absolute inset-0 flex flex-col items-center justify-center overflow-hidden">
@@ -32,33 +32,24 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="pt-4 text-xl max-xs:text-xs">
+              <div className="max-xs:pt-8 pt-40 text-xl max-xs:text-xs">
                 <div className="flex flex-col justify-center items-center">
-                  <p>TOP LEADER</p>
+                  <p className="font-bold">TOP LEADER</p>
                   <div>
-                    <HyperText
-                      text="Romario"
-                      className="text-2xl font-bold text-white"
-                    />
+                    <HyperText text="-" className="text-2xl text-white" />
                   </div>
                 </div>
                 <div className="flex gap-4 justify-center items-center">
                   <div className="flex flex-col items-center justify-center">
-                    <p>TOTAL USER</p>
+                    <p className="font-bold">TOTAL USER</p>
                     <div>
-                      <HyperText
-                        text="100000"
-                        className="text-2xl font-bold text-white"
-                      />
+                      <HyperText text="-" className="text-2xl  text-white" />
                     </div>
                   </div>
                   <div className="flex flex-col items-center justify-center">
-                    <p>TOTAL MINING</p>
+                    <p className="font-bold">TOTAL MINING</p>
                     <div>
-                      <HyperText
-                        text="100000"
-                        className="text-2xl font-bold text-white"
-                      />
+                      <HyperText text="-" className="text-2xl text-white" />
                     </div>
                   </div>
                 </div>

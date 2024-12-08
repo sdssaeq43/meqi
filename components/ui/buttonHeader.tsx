@@ -6,7 +6,7 @@ export const Button = () => {
     <StyledWrapper>
       <button
         type="button"
-        className="button py-1 px-4 max-xs:p-2 max-xs:text-xs"
+        className="button px-10 py-2 max-xs:py-1 max-xs:px-4 max-xs:p-2 max-xs:text-xs"
       >
         <span className="fold" />
         <div className="points_wrapper">
@@ -34,7 +34,9 @@ export const Button = () => {
           >
             <polyline points="13.18 1.37 13.18 9.64 21.45 9.64 10.82 22.63 10.82 14.36 2.55 14.36 13.18 1.37" />
           </svg>
-          <a>Join</a>
+          <a href="https://t.me/zephorium_bot/app" target="_blank">
+            Join
+          </a>
         </span>
       </button>
     </StyledWrapper>

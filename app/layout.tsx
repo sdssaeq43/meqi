@@ -12,6 +12,11 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const orbitron = localFont({
+  src: "./fonts/Orbitron-Black.ttf",
+  variable: "--font-orbit",
+  weight: "100 900",
+});
 
 export const metadata: Metadata = {
   title: "Zephorium",
@@ -26,11 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${orbitron.variable} antialiased`}>{children}</body>
     </html>
   );
 }

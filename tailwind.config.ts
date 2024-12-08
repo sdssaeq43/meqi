@@ -40,8 +40,13 @@ const config: Config = {
         "floating-points": "floating-points 2s infinite ease-in-out",
         dasharray: "dasharray 1s linear forwards",
         filled: "filled 0.1s linear forwards 0.95s",
+        shine: "shine 2s infinite ease-in",
       },
       keyframes: {
+        shine: {
+          "0%": { backgroundPosition: "1% 0" },
+          "100%": { backgroundPosition: "1% 0" },
+        },
         "floating-points": {
           "0%": { transform: "translateY(0)", opacity: "1" },
           "85%": { opacity: "0" },

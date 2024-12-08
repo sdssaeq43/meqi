@@ -7,18 +7,24 @@ export const Social = () => {
   return (
     <StyledWrapper>
       <ul className="wrapper">
-        <li className="icon max-xs:w-10 max-xs:h-10 w-12 h-12 facebook">
-          <span className="tooltip">Telegram</span>
-          <FaTelegram size={25} />
-        </li>
-        <li className="icon max-xs:w-10 max-xs:h-10 w-12 h-12 twitter">
-          <span className="tooltip">Twitter</span>
-          <FaXTwitter size={25} />
-        </li>
-        <li className="icon max-xs:w-10 max-xs:h-10 w-12 h-12 instagram">
-          <span className="tooltip">Discord</span>
-          <FaDiscord size={25} />
-        </li>
+        <a href="https://t.me/zephorium" target="_blank">
+          <li className="icon max-xs:w-10 max-xs:h-10 w-12 h-12 facebook">
+            <span className="tooltip">Telegram</span>
+            <FaTelegram size={25} />
+          </li>
+        </a>
+        <a href="https://x.com/Zephorium" target="_blank">
+          <li className="icon max-xs:w-10 max-xs:h-10 w-12 h-12 twitter">
+            <span className="tooltip">Twitter</span>
+            <FaXTwitter size={25} />
+          </li>
+        </a>
+        <a href="https://discord.com/invite/mUuypqsdaJ" target="_blank">
+          <li className="icon max-xs:w-10 max-xs:h-10 w-12 h-12 instagram">
+            <span className="tooltip">Discord</span>
+            <FaDiscord size={25} />
+          </li>
+        </a>
       </ul>
     </StyledWrapper>
   );
