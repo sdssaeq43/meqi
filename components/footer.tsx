@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { Loader } from "./ui/footerLogo";
+// import Image from "next/image";
+// import { Loader } from "./ui/footerLogo";
 import { Social } from "./ui/footerSocialMedia";
 
 export const Footer = () => {
